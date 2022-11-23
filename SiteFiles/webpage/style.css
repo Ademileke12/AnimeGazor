@@ -1,0 +1,218 @@
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+
+@media only screen and (min-width:600px) {
+
+    *,::after,::before,body{
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+        display: none;
+        background-color: black;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    body{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+    }
+    /* headerArea */
+    .elementsmob{
+        display: flex;
+        justify-content: space-between;
+        background-color: hsl(51, 78%, 46%);
+        box-shadow:0 0.125rem 0.25rem rgb(4 4 4 / 77%) !important;
+    }
+
+    .sublinksmob{
+        padding: 10px;
+    }
+
+    .iconmob{
+        padding: 10px;
+        padding-top: 13px;
+    }
+
+    .pixel{
+        background-color:hsl(51, 78%, 46%);
+        width: 31px;
+        height: 16px;
+    }
+
+    .linkA{
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        font-size: small;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* firstcontainer  and imageselection styling*/
+    .body1mob{
+        background-color:hsl(51deg 98% 61%);
+        padding: 25px;
+    }
+
+    .holdermob{
+        display: flex;
+    }
+
+    .sitewelocmemob{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logomob{
+        display: flex;
+    }
+
+    .filesMob,.logmob{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .filesMob{
+        width: 270px;
+        height: 480px;
+        padding: 10px;
+    }
+
+    .downlinkmob{
+        color: white;
+        font-size: small;
+        /* font-weight: 400; */
+        text-decoration: none;
+        background-color: hsl(51, 100%, 60%);
+        border: 1px solid hsl(51, 100%, 60%);
+        padding: 10px;
+        border-radius: 4px;
+    }
+
+    .downlinkmob:hover{
+        color:black;
+        font-size: small;
+        /* font-weight: 400; */
+        text-decoration: none;
+        background-color:white;
+        border: 1px solid white;
+        padding: 10px;
+        border-radius:4px;
+    }
+
+    .logmob{
+        background-color:transparent;
+        padding: 0;
+        box-shadow: 1px 1rem 0.25rem rgb(54 45 45 / 77%) !important;
+        
+    }
+
+    .wordmob{
+        color: white;
+        /* font-size: 20px; */
+        font-weight: 700;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .word2mob{
+        color:white;
+        font-size: small;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-bottom: 15px;
+        font-weight: 400;
+    }
+
+    .aboutmob{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .buttonsmob{
+        text-decoration: none;
+        margin: 0;
+        padding: 5px;
+        color: white;
+        font-size: small;
+        border: 1px solid rgb(58, 126, 126);
+        background-color: rgb(58, 126, 126);
+        border-radius: 2px;
+        box-shadow:0 0.125rem 0.25rem rgb(4 4 4 / 77%) !important;
+    }
+
+    .buttonsmob1{
+        text-decoration: none;
+        margin: 0;
+        padding: 6px;
+        color: white;
+        font-size: small;
+        border: 1px solid white;
+        border-radius: 2px;
+    }
+
+    /* Imageselection and download */
+
+    .imageSelectionMob{
+        background-color: #0e0d0d;
+    }
+
+    .infomob{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .notifmob{
+        padding-top: 40px;
+    }
+
+    .downmob{
+        text-align: center;
+        color: white;
+        font-size:34px;
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color:none;
+        -webkit-text-stroke: 2px white;
+    }
+
+    /* middlebody code */
+
+    .secondbodymob{
+        margin: 25px;  
+        margin-top: 40px; 
+    }
+
+    .secwordMob{
+        font-family: sans-serif;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .colorttmob{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: hsl(51, 78%, 46%);
+        color: white;
+        padding: 5px;
+        border: 1px solid hsl(51, 78%, 46%);
+        border-radius: 2px;
+    }
+
+    .newlog2Mob{
+        width:246px;
+        height: 249px;
+        margin: 10px;
+        margin-left: 25px;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+}
+
