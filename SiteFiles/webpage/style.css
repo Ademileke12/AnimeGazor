@@ -92,6 +92,8 @@
         border: 1px solid hsl(51, 100%, 60%);
         padding: 10px;
         border-radius: 4px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .downlinkmob:hover{
@@ -188,7 +190,7 @@
 
     .secondbodymob{
         margin: 25px;  
-        margin-top: 40px; 
+        margin-top: 80px; 
     }
 
     .secwordMob{
@@ -213,6 +215,69 @@
         margin-left: 25px;
         margin-bottom: 15px;
         padding: 5px;
+    }
+    /* footerpage */
+
+    footer.closingMob{
+        background-color: hsl(51deg 98% 61%);
+        font-weight: 1000;
+    }
+
+    .headfootmob{
+        display: flex;
+        flex-direction: column;
+        /* padding: 10px; */
+
+    }
+
+    .ownerinfomob{
+        text-align: center;
+        color: hsl(51deg 98% 61%);
+        font-size: 30px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        -webkit-text-stroke: 1px #ffffff;
+        font-weight: 900;
+    }
+
+    form,.email{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ll{
+        margin: 10px;
+        font-size: 30px;
+        color: white;
+        font-weight: 900;
+        text-align: center;
+        -webkit-text-stroke: 1px #ffffff;
+        color: hsl(51deg 98% 61%);
+    }
+
+    p.tellmob{
+        color: white;
+        padding: 15px;
+        font-weight: 300;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .emform,.submit{
+        padding: 20px;
+        margin: 5px;
+        border: 1px solid hsl(51deg 98% 61%);
+        border-radius: 4px;
+    }
+    .submit{
+        color: hsl(51deg 98% 61%);
+    }
+
+    .submit:hover{
+        background-color: hsl(51deg 98% 61%);
+        color: white;
+        padding: 20px;
+        margin: 5px;
+        border: 1px solid white;
+        border-radius: 4px;
     }
 }
 
